@@ -1,0 +1,40 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.12.1
+2 info using node@v25.8.2
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install
+7 verbose argv "install"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-04-21T21_47_21_905Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-04-21T21_47_21_905Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+13 silly idealTree buildDeps
+14 silly reify moves {}
+15 silly audit bulk request {
+15 silly audit   '@pinojs/redact': [ '0.4.0' ],
+15 silly audit   'atomic-sleep': [ '1.0.0' ],
+15 silly audit   chalk: [ '5.6.2' ],
+15 silly audit   'on-exit-leak-free': [ '2.1.2' ],
+15 silly audit   pino: [ '10.3.1' ],
+15 silly audit   'pino-abstract-transport': [ '3.0.0' ],
+15 silly audit   'pino-std-serializers': [ '7.1.0' ],
+15 silly audit   'process-warning': [ '5.0.0' ],
+15 silly audit   'qrcode-terminal': [ '0.12.0' ],
+15 silly audit   'quick-format-unescaped': [ '4.0.4' ],
+15 silly audit   'real-require': [ '0.2.0' ],
+15 silly audit   'safe-stable-stringify': [ '2.5.0' ],
+15 silly audit   'sonic-boom': [ '4.2.1' ],
+15 silly audit   split2: [ '4.2.0' ],
+15 silly audit   'thread-stream': [ '4.0.0' ]
+15 silly audit }
+16 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 4062ms
+17 silly audit report {}
+18 verbose cwd /data/data/com.termux/files/home
+19 verbose os Linux 3.18.79
+20 verbose node v25.8.2
+21 verbose npm  v11.12.1
+22 verbose exit 0
+23 info ok

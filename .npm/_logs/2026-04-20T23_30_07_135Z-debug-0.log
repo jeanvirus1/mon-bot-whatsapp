@@ -1,0 +1,134 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.12.1
+2 info using node@v24.14.1
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install chalk pino qrcode-terminal
+7 verbose argv "install" "chalk" "pino" "qrcode-terminal"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-04-20T23_30_07_135Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-04-20T23_30_07_135Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest chalk@*
+15 silly packumentCache full:https://registry.npmjs.org/chalk cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/chalk 1117ms (cache revalidated)
+17 silly packumentCache full:https://registry.npmjs.org/chalk set size:117861 disposed:false
+18 silly fetch manifest pino@*
+19 silly packumentCache full:https://registry.npmjs.org/pino cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/pino 399ms (cache revalidated)
+21 silly packumentCache full:https://registry.npmjs.org/pino set size:1274379 disposed:false
+22 silly fetch manifest qrcode-terminal@*
+23 silly packumentCache full:https://registry.npmjs.org/qrcode-terminal cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/qrcode-terminal 357ms (cache revalidated)
+25 silly packumentCache full:https://registry.npmjs.org/qrcode-terminal set size:29799 disposed:false
+26 silly placeDep ROOT chalk@5.6.2 OK for:  want: *
+27 silly placeDep ROOT pino@10.3.1 OK for:  want: *
+28 silly placeDep ROOT qrcode-terminal@0.12.0 OK for:  want: *
+29 silly fetch manifest atomic-sleep@^1.0.0
+30 silly packumentCache full:https://registry.npmjs.org/atomic-sleep cache-miss
+31 http fetch GET 200 https://registry.npmjs.org/atomic-sleep 339ms (cache revalidated)
+32 silly packumentCache full:https://registry.npmjs.org/atomic-sleep set size:5192 disposed:false
+33 silly fetch manifest on-exit-leak-free@^2.1.0
+34 silly packumentCache full:https://registry.npmjs.org/on-exit-leak-free cache-miss
+35 http fetch GET 200 https://registry.npmjs.org/on-exit-leak-free 342ms (cache revalidated)
+36 silly packumentCache full:https://registry.npmjs.org/on-exit-leak-free set size:18719 disposed:false
+37 silly fetch manifest pino-abstract-transport@^3.0.0
+38 silly packumentCache full:https://registry.npmjs.org/pino-abstract-transport cache-miss
+39 http fetch GET 200 https://registry.npmjs.org/pino-abstract-transport 341ms (cache revalidated)
+40 silly packumentCache full:https://registry.npmjs.org/pino-abstract-transport set size:28687 disposed:false
+41 silly fetch manifest pino-std-serializers@^7.0.0
+42 silly packumentCache full:https://registry.npmjs.org/pino-std-serializers cache-miss
+43 http fetch GET 200 https://registry.npmjs.org/pino-std-serializers 582ms (cache revalidated)
+44 silly packumentCache full:https://registry.npmjs.org/pino-std-serializers set size:96176 disposed:false
+45 silly fetch manifest process-warning@^5.0.0
+46 silly packumentCache full:https://registry.npmjs.org/process-warning cache-miss
+47 http fetch GET 200 https://registry.npmjs.org/process-warning 880ms (cache revalidated)
+48 silly packumentCache full:https://registry.npmjs.org/process-warning set size:32480 disposed:false
+49 silly fetch manifest quick-format-unescaped@^4.0.3
+50 silly packumentCache full:https://registry.npmjs.org/quick-format-unescaped cache-miss
+51 http fetch GET 200 https://registry.npmjs.org/quick-format-unescaped 344ms (cache revalidated)
+52 silly packumentCache full:https://registry.npmjs.org/quick-format-unescaped set size:36121 disposed:false
+53 silly fetch manifest real-require@^0.2.0
+54 silly packumentCache full:https://registry.npmjs.org/real-require cache-miss
+55 http fetch GET 200 https://registry.npmjs.org/real-require 833ms (cache revalidated)
+56 silly packumentCache full:https://registry.npmjs.org/real-require set size:10884 disposed:false
+57 silly fetch manifest safe-stable-stringify@^2.3.1
+58 silly packumentCache full:https://registry.npmjs.org/safe-stable-stringify cache-miss
+59 http fetch GET 200 https://registry.npmjs.org/safe-stable-stringify 338ms (cache revalidated)
+60 silly packumentCache full:https://registry.npmjs.org/safe-stable-stringify set size:45091 disposed:false
+61 silly fetch manifest @pinojs/redact@^0.4.0
+62 silly packumentCache full:https://registry.npmjs.org/@pinojs%2fredact cache-miss
+63 http fetch GET 200 https://registry.npmjs.org/@pinojs%2fredact 1457ms (cache revalidated)
+64 silly packumentCache full:https://registry.npmjs.org/@pinojs%2fredact set size:16907 disposed:false
+65 silly fetch manifest sonic-boom@^4.0.1
+66 silly packumentCache full:https://registry.npmjs.org/sonic-boom cache-miss
+67 http fetch GET 200 https://registry.npmjs.org/sonic-boom 603ms (cache revalidated)
+68 silly packumentCache full:https://registry.npmjs.org/sonic-boom set size:170649 disposed:false
+69 silly fetch manifest thread-stream@^4.0.0
+70 silly packumentCache full:https://registry.npmjs.org/thread-stream cache-miss
+71 http fetch GET 200 https://registry.npmjs.org/thread-stream 338ms (cache revalidated)
+72 silly packumentCache full:https://registry.npmjs.org/thread-stream set size:127672 disposed:false
+73 silly placeDep ROOT @pinojs/redact@0.4.0 OK for: pino@10.3.1 want: ^0.4.0
+74 silly placeDep ROOT atomic-sleep@1.0.0 OK for: pino@10.3.1 want: ^1.0.0
+75 silly placeDep ROOT on-exit-leak-free@2.1.2 OK for: pino@10.3.1 want: ^2.1.0
+76 silly placeDep ROOT pino-abstract-transport@3.0.0 OK for: pino@10.3.1 want: ^3.0.0
+77 silly placeDep ROOT pino-std-serializers@7.1.0 OK for: pino@10.3.1 want: ^7.0.0
+78 silly placeDep ROOT process-warning@5.0.0 OK for: pino@10.3.1 want: ^5.0.0
+79 silly placeDep ROOT quick-format-unescaped@4.0.4 OK for: pino@10.3.1 want: ^4.0.3
+80 silly placeDep ROOT real-require@0.2.0 OK for: pino@10.3.1 want: ^0.2.0
+81 silly placeDep ROOT safe-stable-stringify@2.5.0 OK for: pino@10.3.1 want: ^2.3.1
+82 silly placeDep ROOT sonic-boom@4.2.1 OK for: pino@10.3.1 want: ^4.0.1
+83 silly placeDep ROOT thread-stream@4.0.0 OK for: pino@10.3.1 want: ^4.0.0
+84 silly fetch manifest split2@^4.0.0
+85 silly packumentCache full:https://registry.npmjs.org/split2 cache-miss
+86 http fetch GET 200 https://registry.npmjs.org/split2 509ms (cache revalidated)
+87 silly packumentCache full:https://registry.npmjs.org/split2 set size:47438 disposed:false
+88 silly placeDep ROOT split2@4.2.0 OK for: pino-abstract-transport@3.0.0 want: ^4.0.0
+89 silly reify moves {}
+90 http cache split2@https://registry.npmjs.org/split2/-/split2-4.2.0.tgz 0ms (cache hit)
+91 http cache thread-stream@https://registry.npmjs.org/thread-stream/-/thread-stream-4.0.0.tgz 1ms (cache hit)
+92 http cache sonic-boom@https://registry.npmjs.org/sonic-boom/-/sonic-boom-4.2.1.tgz 0ms (cache hit)
+93 http cache safe-stable-stringify@https://registry.npmjs.org/safe-stable-stringify/-/safe-stable-stringify-2.5.0.tgz 0ms (cache hit)
+94 http cache real-require@https://registry.npmjs.org/real-require/-/real-require-0.2.0.tgz 1ms (cache hit)
+95 http cache quick-format-unescaped@https://registry.npmjs.org/quick-format-unescaped/-/quick-format-unescaped-4.0.4.tgz 0ms (cache hit)
+96 http cache process-warning@https://registry.npmjs.org/process-warning/-/process-warning-5.0.0.tgz 1ms (cache hit)
+97 http cache pino-std-serializers@https://registry.npmjs.org/pino-std-serializers/-/pino-std-serializers-7.1.0.tgz 0ms (cache hit)
+98 http cache pino-abstract-transport@https://registry.npmjs.org/pino-abstract-transport/-/pino-abstract-transport-3.0.0.tgz 1ms (cache hit)
+99 http cache on-exit-leak-free@https://registry.npmjs.org/on-exit-leak-free/-/on-exit-leak-free-2.1.2.tgz 0ms (cache hit)
+100 http cache atomic-sleep@https://registry.npmjs.org/atomic-sleep/-/atomic-sleep-1.0.0.tgz 0ms (cache hit)
+101 http cache @pinojs/redact@https://registry.npmjs.org/@pinojs/redact/-/redact-0.4.0.tgz 0ms (cache hit)
+102 http cache qrcode-terminal@https://registry.npmjs.org/qrcode-terminal/-/qrcode-terminal-0.12.0.tgz 0ms (cache hit)
+103 http cache pino@https://registry.npmjs.org/pino/-/pino-10.3.1.tgz 0ms (cache hit)
+104 http cache chalk@https://registry.npmjs.org/chalk/-/chalk-5.6.2.tgz 0ms (cache hit)
+105 silly tarball no local data for thread-stream@https://registry.npmjs.org/thread-stream/-/thread-stream-4.0.0.tgz. Extracting by manifest.
+106 silly tarball no local data for pino-abstract-transport@https://registry.npmjs.org/pino-abstract-transport/-/pino-abstract-transport-3.0.0.tgz. Extracting by manifest.
+107 silly tarball no local data for pino@https://registry.npmjs.org/pino/-/pino-10.3.1.tgz. Extracting by manifest.
+108 silly tarball no local data for chalk@https://registry.npmjs.org/chalk/-/chalk-5.6.2.tgz. Extracting by manifest.
+109 http fetch GET 200 https://registry.npmjs.org/pino-abstract-transport/-/pino-abstract-transport-3.0.0.tgz 1463ms (cache miss)
+110 http fetch GET 200 https://registry.npmjs.org/chalk/-/chalk-5.6.2.tgz 1488ms (cache miss)
+111 http fetch GET 200 https://registry.npmjs.org/thread-stream/-/thread-stream-4.0.0.tgz 1765ms (cache miss)
+112 http fetch GET 200 https://registry.npmjs.org/pino/-/pino-10.3.1.tgz 2408ms (cache miss)
+113 silly ADD node_modules/split2
+114 silly ADD node_modules/thread-stream
+115 silly ADD node_modules/sonic-boom
+116 silly ADD node_modules/safe-stable-stringify
+117 silly ADD node_modules/real-require
+118 silly ADD node_modules/quick-format-unescaped
+119 silly ADD node_modules/process-warning
+120 silly ADD node_modules/pino-std-serializers
+121 silly ADD node_modules/pino-abstract-transport
+122 silly ADD node_modules/on-exit-leak-free
+123 silly ADD node_modules/atomic-sleep
+124 silly ADD node_modules/@pinojs/redact
+125 silly ADD node_modules/qrcode-terminal
+126 silly ADD node_modules/pino
+127 silly ADD node_modules/chalk
+128 verbose cwd /data/data/com.termux/files/home
+129 verbose os Linux 3.18.79
+130 verbose node v24.14.1
+131 verbose npm  v11.12.1
+132 verbose exit 0
+133 info ok

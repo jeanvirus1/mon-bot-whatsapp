@@ -1,0 +1,1 @@
+alias boost="~/boost.sh"
